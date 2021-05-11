@@ -1,0 +1,3 @@
+comment code - Ctrl + k + c 
+uncomment code - Ctrl + k + u 
+create copy of the code - alt +shift + down arrow mark 

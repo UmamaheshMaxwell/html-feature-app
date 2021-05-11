@@ -1,0 +1,59 @@
+HTML - Hyper Text Markup Language
+
+     - used to create web pages
+     - Widely used on web
+     - Just markup languagge not programming Language
+
+
+
+<!doctype HTML> - Specifies the language that we write on the pages
+<html> - This tag signals that from here we are going to write in HTNL code
+<head> - Here we write meta data for the pages mostly meant for search engines
+<title> - Title HTML Page
+<body> -  Where content of the page goes, headings, paragraphs, images, hyperlinks
+
+HTML Element - Defined by Start Tag an End tag
+               <tagname>content</tagname>
+
+             - Some HTML element will have no closing tags 
+
+               <br> - Break / Empty Element
+               <hr> - Horzontal Line -  No content seperate the content
+
+               <input type="text" />
+
+Fetaures - 1. Simple and easy 
+           2. Platform Independent ( Windows, mac, Linux )
+           3  case insensitive language
+                <H1></H1>
+                <H1></h1>
+                <h1></H1>
+                <h1></h1>
+           4. write all tags in lower-case for consistency and for the better readability
+           
+Building Blocks
+-----------------
+
+Tags: any HTMl tag surronds the content using < and > brackets 
+
+attribute: provides extra information about that element
+
+<tag attribute-name="attribute_value"></tag>
+
+Heading Tags - <H1>,<H2>,<H3>,<H4>,<H5>,<H6>
+              - <b></b>
+              - <i></i>
+              - <u></u>
+
+Meta Tags - DOCTYPE, title, link, meta, style
+
+Text Tags - <p>, <h1> ... <h6>, <strong>,<em>
+
+Link Tags - <a>
+
+Image tag - <image>
+
+List Tags - <ul>, <li>, <ol>
+
+Table Tags - table, thead, th, tbody, tr, td
+
