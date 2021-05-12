@@ -57,3 +57,6 @@ List Tags - <ul>, <li>, <ol>
 
 Table Tags - table, thead, th, tbody, tr, td
 
+Form Tags - Form, input, textarea, select, button 
+
+script tags - script, no script 
