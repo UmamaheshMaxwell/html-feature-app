@@ -1,0 +1,13 @@
+GET https://jsonplaceholder.typicode.com/users
+
+
+###
+POST https://jsonplaceholder.typicode.com/posts HTTP/1.1
+content-type: application/json
+
+{
+    "userId": 1,
+    "id": 1,
+    "title": "Guwtham's API",
+    "body": "Alam's Coding Samples"
+}
