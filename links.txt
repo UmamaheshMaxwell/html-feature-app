@@ -3,3 +3,5 @@ https://www.restapitutorial.com/httpstatuscodes.html
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 https://docs.emmet.io/cheat-sheet/
+
+https://docs.emmet.io/abbreviations/

@@ -103,14 +103,14 @@ p - paragraph
 
 space - to add space se &nbsp;
 
-HTMl CSS 
+HTML CSS 
 --------
 
 CSS - Cascading Stylesheet - To format the layout of my webpage
     - With CSS you can control the color, font, size of the text, 
       elemepnt position, background, background images, background colors
 
-CSS - Can be added to HTMl docuemnt in 3 ways
+CSS - Can be added to HTML docuemnt in 3 ways
 
 Inline -   by using style attribute inside HTML Elelment
 Internal - by using <style> element in <head> section
