@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Color, Fonts, Sizes</title>
+    <style>
+        h1 {
+            color: coral;
+            font-family:  uma, gowtham, alam, madhu;
+            font-size: 10px;
+        }
+
+        p.border {
+            color: #0000FF;
+            font-family: 'Courier New';
+            font-size: 20px;
+        }
+
+        .border {
+            color:darkturquoise;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: 2px solid black;
+            width: 300px;
+            height: 200px;
+            align-content: center;
+            justify-content: center;
+            display: flex;
+            flex-wrap:  wrap;
+        }
+
+        .own-class {
+            border-top: 2px dashed black;
+            border-left: 2px dotted red;
+            border-bottom: 2px solid blue;
+            border-right: 2px double green;
+            border: 10px solid green;
+            width: 50vh;
+            padding: 10px 20px 50px 40px;
+            border-radius: 10px 50px;
+            background-color: greenyellow;
+        }
+
+        .first-margin {
+            background-color: crimson;
+            height: 200px;
+            width: 200px;
+            color: #fff;
+            border:2px solid black;
+            margin-left:100px;
+            margin-bottom:50px;
+        }
+        .second-margin {
+            background-color: greenyellow;
+            height: 200px;
+            width: 200px;
+            border:2px solid green;
+            margin:50px;
+        }
+
+        .third-margin {
+            background-color: dodgerblue;
+            height: 200px;
+            width: 200px;
+            border:2px solid green;
+            color: white;
+            margin:50px
+        }
+        table, tr, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin-bottom: 50px;
+        }
+
+        th, td {
+            padding: 20px;
+        }
+
+        th {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is a header tag</h1>
+    <p>This is paragraph</p>
+    <p class="border">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, corrupti!
+    </p>
+    <div class="border">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, maiores?
+    </div>
+    <p class="own-class">
+        This is paragraph to test our padding <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, doloribus.
+    </p>
+    <div class="first-margin">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, optio?
+    </div>
+    <div class="second-margin">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, maxime!
+    </div>
+    <div class="third-margin">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, fuga.
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>City</th>
+                <th colspan="2">Adress</th>
+                <th>Telephone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Umamahesh</td>
+                <td>uma@ef.com</td>
+                <td>hyderabad</td>
+                <td>Telangana</td>
+                <td>India</td>
+                <td>123456789</td>
+            </tr>
+            <tr>
+                <td>Umamahesh</td>
+                <td>uma@ef.com</td>
+                <td>hyderabad</td>
+                <td>Telangana</td>
+                <td>India</td>
+                <td>123456789</td>
+            </tr>
+            <tr>
+                <td>Umamahesh</td>
+                <td>uma@ef.com</td>
+                <td>hyderabad</td>
+                <td>Telangana</td>
+                <td>India</td>
+                <td>123456789</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Elon Musk</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone</th>
+            <td>123456</td>
+        </tr>
+        <tr>
+            <td><button>Submit</button></td>
+        </tr>
+        <tr>
+            <th>Data</th>
+            <td><input type="checkbox" name="" id=""></td>
+        </tr>
+    </table>
+    <br><br><br><br><br><br><br>
+</body> 
+</html>
