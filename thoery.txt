@@ -129,6 +129,7 @@ margin - defines the space between border
 HTML Forms 
 -----------
 Required to collect some data from the user. for e.g Name, Email, Phone 
+May be used for registartion where we collect infornation. 
 
 <form action="/user" method="get">
       form elements
