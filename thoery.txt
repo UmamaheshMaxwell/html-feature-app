@@ -144,7 +144,7 @@ HTML FORM Controls
 3. Radiobox Control
 4. Selectbox control 
 5. File Control
-6. Hidden Control 
+6. Hidden Control - Hides the data inside the page which later can be used to pass to server
 7. Clickable button
 8. Submt and reset Button 
 
@@ -190,7 +190,7 @@ div -  Known as DIVISON Tag
        
        It is often used as a container for other HTMl elements
       
-       defines a division or a section in an HTMl document
+       defines a division or a section in an HTML document
 
        any sort of content can be placed inside <div> tag
 
@@ -204,9 +204,9 @@ div -  Known as DIVISON Tag
 
 label vs span 
 -------------
-Label is used when we have form or imput elements
+Label is used when we have form or input elements
 
-Span is used anywhere, this is ageneral container for any inline content
+Span is used anywhere, this is a general container for any inline content
 
 
 HTML DOM ( Document Object Model)

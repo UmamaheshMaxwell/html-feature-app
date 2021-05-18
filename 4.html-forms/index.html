@@ -11,10 +11,10 @@
 <body>
     <div class="container">
         <h1>HTML Forms</h1>
-        <form>
+        <form action="/" method="POST">
            <h4>Single Line Input</h4>
            <b>ID:</b> <input type="number" name="" class="form-control"> <br>   
-           <b>FirstName:</b><input type="text" name="firstName" class="form-control w-50" placeholder="Please provide firstname" maxlength="5" required> <br>
+           <b>FirstName:</b><input type="text" name="firstName" class="form-control w-50" placeholder="Please provide firstname"> <br>
            <b>LastName:</b><input type="text" name="lastName" class="form-control w-50" placeholder="Please provide lastname"> <br>
            <h4>Password Control</h4>
            <b>Password:</b><input type="password" name="password" class="form-control w-50" placeholder="Enter password"> <br>
@@ -43,8 +43,26 @@
           <b>Select Image File :</b> <input type="file" class="form-control w-50" name="upload" accept="image/*">
            <br><br>
            <button class="btn btn-primary">Submit</button>
+           <br><br>
+           <input type="button" value="Add User" class="btn btn-primary">
+           <input type="reset" value="Reset" class="btn btn-warning">
+           <input type="submit" value="Submit" class="btn bg-success" onclick="stopPageRefresh(event)">
+           <input type="image" src="../images/button.jpg" width="50" onclick=" return callme()">
+           <br><br><br>
+           <input type="hidden" id="userid" name="page" value="[1,2,3]">
            <br><br><br>
         </form>
     </div>
+    <script>
+        function callme(){
+            console.log('Hello, did you click image button ?')
+        }
+
+        function stopPageRefresh(event){
+            console.log(`Stopped page to get refresh`)
+            event.preventDefault()
+            document.getElementById("userid").value = "[1,2,3,4]"
+        }
+    </script>
 </body>
 </html>
