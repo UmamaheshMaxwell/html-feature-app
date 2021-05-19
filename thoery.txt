@@ -220,6 +220,12 @@ Usage: With HTML DOM Javascript can access all the elements of HTML Document
 
        Javascript can react to HTML events, can create new HTMl events in the page.
 
+value vs innerHTML
+-----------------------
+
+       Setting the value is normally used for input/form elements. 
+       innerHTML is normally used for div, span, td and similar elements.
+
 Video 
 ------
 Will help you display video in the page
