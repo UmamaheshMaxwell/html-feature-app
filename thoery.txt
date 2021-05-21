@@ -301,3 +301,14 @@ Tells nothing about the content
 <div id="nav">
 <div class="header">
 <div class="footer">
+
+
+CSS3
+-----
+1. Colors Names - 
+       The 17 standard colors are: aqua, black, blue, fuchsia, gray, green, lime, maroon, 
+                                  navy, olive, orange, purple, red, silver, teal, white, and yellow.
+
+2. HTML5 Colors 
+3. Hexadecimal colors - #
+2. RGB colors - rbg()
