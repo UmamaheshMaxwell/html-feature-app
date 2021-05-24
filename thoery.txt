@@ -312,3 +312,12 @@ CSS3
 2. HTML5 Colors 
 3. Hexadecimal colors - #
 2. RGB colors - rbg()
+
+Selectors
+
+1. Combinator Selector 
+
+   a. decendent selector (space)
+   b. child selector (>)
+   c. adjacent sibing selector (+)
+   d. general sibling selector (~)
