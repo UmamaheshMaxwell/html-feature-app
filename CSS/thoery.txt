@@ -1,4 +1,4 @@
-CSS3   ( css1, css2, css2.1 and css3)
+CSS3 
 -----
 1. Inline
 2. Internal
