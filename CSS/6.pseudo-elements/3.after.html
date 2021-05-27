@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before Pseudo Elements</title>
+    <style>
+        h1::after {
+            content: "Who is johngalt ? ";
+        }
+
+        div::after {
+            content: url("../../images/bird.jpg");
+        }
+        .first::after {
+            content: "Welcome ";
+            color: red;
+            font-size: 200%;
+        }
+
+        .second::after {
+            content: "Technical Training ";
+            color: blue;
+            font-size: 200%;
+        }
+    </style>
+</head>
+<body>
+    <p class="first">to Naresh i Technologies</p>
+    <p class="second">will be provided for beginners to advanced level students</p>
+    <h1>This is heading</h1>
+    <p>
+        The ::before pseduo element inserts content before the content of an element
+    </p>
+    <h1>This is another heading</h1>
+    <div>
+        This is div
+    </div>
+</body>
+</html>

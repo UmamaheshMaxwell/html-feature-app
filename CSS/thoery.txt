@@ -111,7 +111,7 @@ used for both pseudo class and pseudo elements (css2 and css1)
 ::first-letter
 ::before - Insert content before the content
 ::after  - Insert content after the content
-::select
+::selection
 
 note: ::first-line, ::first-letter can only be applied to block level elements
 -----

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Pseudo Element</title>
+</head>
+<style>
+    h1::selection {
+        color: red;
+        background-color: yellow;
+    }
+    /* h1::--moz-selection {
+        color: red;
+        background-color: yellow;
+    } */
+    .box {
+        width: 300px;
+        height: 300px;
+        border: 1px solid blue;
+        text-align: justify;
+    }
+</style>
+<body>
+    <h1>Select some text on the page</h1>
+    <p>This is paragraph</p>
+    <div>This is sometext in a div element</div>
+    <p>
+        <strong>Note:</strong> selection is not suuporeted in older browsers
+    </p>
+
+    <div class="box">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi necessitatibus commodi eum odio quae officiis nam ea, natus modi quas facere dolores quos, blanditiis aut nihil a! At, natus. Ea omnis, eum nam numquam tenetur corrupti quisquam laudantium beatae cupiditate, ut provident exercitationem illum quos id cum veritatis nobis? Consequatur officiis possimus corporis! Sequi consequuntur ab nihil cupiditate, voluptatum assumenda reiciendis perferendis culpa hic magni tempora expedita incidunt optio fugit voluptatem eius itaque quaerat voluptate explicabo nulla pariatur modi. Vitae explicabo expedita vel ullam veniam, ipsam accusamus hic eaque enim maiores dolorum officiis.
+    </div>
+</body>
+</html>
