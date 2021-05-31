@@ -30,7 +30,7 @@ combinator selectors - select elements based on specific relationship between th
 pseudo-class selectors - select elemnts based on certain state
 pseudo element selectors - select elements and style the part of the elemnts
 attribute selectors - select elements based on attirbute or attribute-value
-
+ -
 Advantages
 ---------
 CSS3 save time
@@ -189,7 +189,7 @@ alpha - 0.0 (fully transparent) and 1.0 (fully opaque)
 
 CSS-text
 ---------
-Whe use it to manipulate the text using CSS properties
+We use it to manipulate the text using CSS properties
 
 1. color  - set the color of the text
 2. direction - set the direction 
