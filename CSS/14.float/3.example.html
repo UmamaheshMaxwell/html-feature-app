@@ -12,6 +12,7 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             line-height: 1.4em;
+            margin: 0px;
         }
 
         .clr {
@@ -19,7 +20,7 @@
         }
         .container {
             max-width: 960px;
-            margin: 30px auto;
+            margin:  auto;
         }
         .box {
             background-color: #f4f4f4;
@@ -44,10 +45,44 @@
             float:right;
             width: 30%;
         }
+
+        .navbar {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            background-color: #4c6ca0;
+            border-radius: 5px;
+            overflow: auto;
+            position: sticky;
+            top: 0px;;
+        }
+        .navbar li {
+            float: left;
+        }
+
+        .navbar li a {
+            display: inline-block;
+            color: white;
+            padding: 15px 20px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover {
+            background-color: #446190;
+            color: #f4f4f4;
+        }
     </style>
 </head>
 <body>
+
     <div class="container">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
         <div id="box-1" class="box">
             <h3>Heading One</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, similique pariatur sit odio distinctio doloribus ratione odit molestiae totam. Magni!</p>
@@ -63,6 +98,22 @@
         <div class="clr"></div>
         <div id="box-4" class="box">
             <h3>Heading Four</h3>
+            <p>Quibusdam ut magnam hic dolorum ipsum recusandae, reprehenderit natus sed necessitatibus deserunt, ipsam doloremque, accusantium magni cumque illum! Numquam, aut.</p>
+        </div>
+        <div id="box-5" class="box">
+            <h3>Heading Five</h3>
+            <p>Quibusdam ut magnam hic dolorum ipsum recusandae, reprehenderit natus sed necessitatibus deserunt, ipsam doloremque, accusantium magni cumque illum! Numquam, aut.</p>
+        </div>
+        <div id="box-6" class="box">
+            <h3>Heading Six</h3>
+            <p>Quibusdam ut magnam hic dolorum ipsum recusandae, reprehenderit natus sed necessitatibus deserunt, ipsam doloremque, accusantium magni cumque illum! Numquam, aut.</p>
+        </div>
+        <div id="box-7" class="box">
+            <h3>Heading Seven</h3>
+            <p>Quibusdam ut magnam hic dolorum ipsum recusandae, reprehenderit natus sed necessitatibus deserunt, ipsam doloremque, accusantium magni cumque illum! Numquam, aut.</p>
+        </div>
+        <div id="box-8" class="box">
+            <h3>Heading Eight</h3>
             <p>Quibusdam ut magnam hic dolorum ipsum recusandae, reprehenderit natus sed necessitatibus deserunt, ipsam doloremque, accusantium magni cumque illum! Numquam, aut.</p>
         </div>
     </div>
