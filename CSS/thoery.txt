@@ -322,3 +322,23 @@ length -  Defines the height in px,cm etc
 
 initial - Set height and width to its deafult value
 inherit - The height and width will be inherited from its parent value
+
+Position Property
+------------------
+Specifies the type of positioning method used for an element
+
+* static
+* relative
+* absolute
+* fixed
+* sticky
+
+Position : static
+--------------------
+HTML elemens are positioned static by deafult
+Static positioned elements are not affected by the top, right, bottom, left
+Always positioned according the normal flow of the page
+
+Position: Relative
+--------------------
+An element with position:relative is positoned relative to its normal position
