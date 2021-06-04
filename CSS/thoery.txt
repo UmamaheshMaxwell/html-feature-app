@@ -342,3 +342,51 @@ Always positioned according the normal flow of the page
 Position: Relative
 --------------------
 An element with position:relative is positoned relative to its normal position
+
+
+Z-index
+-----------
+Z-index property specifies stack order of an element ( e.g z-index : value (order))
+
+An element with greater stack order is always in front of an element with lower stack order
+
+This only work with below positioned elements 
+
+position: , absolute, relative, fixed, sticky
+
+It can have negative values
+
+it can't have decimal values
+
+
+CSS Units
+----------
+
+Absolute 
+-----------
+pixels(px)
+inches(in)
+centimeters (cm)
+millimeters(mm)
+points(pt)
+picas(pc)
+
+Relative
+----------
+
+percentages (%)
+font-sizes(em & rem)
+character-sizes(ex & ch)
+viewport Dimensions (vw & vh)
+viewport max(vmax)
+viewport min(vmin)
+
+Relative Units are based on :
+------------------------------
+1. The parent dimensions(%)
+2. The currently declared font-attriburtes (em, rem, ex, ch)
+3. The Viewport Dimensions (Vw, Vh, Vmin, Vmax)
+
+ex- Relative to the x-height of the current font (rarely used)
+
+   x-height is roughly the height of lowercase letters such as a,c,m, o
