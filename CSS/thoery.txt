@@ -390,3 +390,11 @@ Relative Units are based on :
 ex- Relative to the x-height of the current font (rarely used)
 
    x-height is roughly the height of lowercase letters such as a,c,m, o
+
+Absolute Units
+-----------------
+1in = 96px
+1cm = 37.8px
+1mm= 0.1cm = 3.78px
+
+1em==16px==0.17in==12pt==1pc==4.2mm==0.42cm
