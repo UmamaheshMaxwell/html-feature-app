@@ -398,3 +398,41 @@ Absolute Units
 1mm= 0.1cm = 3.78px
 
 1em==16px==0.17in==12pt==1pc==4.2mm==0.42cm
+
+CSS Gradients
+-------------
+Gradients display the comibinations of two or more Colors
+
+types
+------
+Linear Gradients (down/up/right/left/diagonally)
+Radient Gradients
+
+Linear Gradients
+-----------------
+Top-to-Bottom (This is default)
+
+To Apply gradients we use background-Image
+
+Radial Gradients
+-----------------
+This differ from liner gradient in that they start at a single point and emanate
+outwards
+
+CSS Transistions
+----------------
+Allows us to change property values smmothly over given duration
+
+Transistion
+transistion-delay
+transistion-duration
+
+
+transition-timing-function
+----------------------------
+Specifies the spped curve of the transition effect
+
+it can havebelow values
+
+ease - specifies a transition effect with a slow start then fast and then end slowly
+linear - specifies transition effect with same speed from start to end  

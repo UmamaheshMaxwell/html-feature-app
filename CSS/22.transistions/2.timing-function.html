@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranistion Timing Functions</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+           
+            margin-bottom: 10px;
+            transition: width 2s;
+        }
+
+        div:hover {
+
+            width: 100%;
+        }
+        .next {
+           float: right;
+            background-color: teal;
+        }
+
+        #div1 {
+            background-color: red;
+            transition-timing-function: linear;
+        }
+        
+        #div2 {
+            background-color: #00FF00;
+            transition-timing-function: ease;
+        }
+        #div3 {
+            background-color: #0000FF;
+            transition-timing-function: ease-in;
+        }
+        #div4 {
+            background-color: crimson;
+            transition-timing-function: ease-out;
+        }
+        #div5 {
+            background-color: cadetblue;
+            transition-timing-function: ease-in-out;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tranistion Timing Functions</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio earum, rerum quas deserunt eum minima incidunt culpa inventore nostrum sint dolorem amet doloremque in veritatis laboriosam totam nam deleniti? Distinctio?</p>
+    <div id="div1">Linear</div>
+    <div class="next">Box</div>
+    <div id="div2">ease</div>
+    <div id="div3">ease-in</div>
+    <div id="div4">ease-out</div>
+    <div id="div5">ease-in-out</div>
+</body>
+</html>
