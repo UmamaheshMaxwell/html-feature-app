@@ -436,3 +436,19 @@ it can havebelow values
 
 ease - specifies a transition effect with a slow start then fast and then end slowly
 linear - specifies transition effect with same speed from start to end  
+
+CSS 2D Transofrmations
+----------------------
+Allows us to move, rotate, scale and skew elements 
+
+transofrm is the property respoisnible for Transformations
+
+- transalate() - moves an element from its current position (according and X-axis and Y axis)
+- rotate()
+- scaleX
+- scaleY()
+- scale()
+- skewX()
+- skewY()
+- skew()
+- matrix
