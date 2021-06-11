@@ -452,3 +452,7 @@ transofrm is the property respoisnible for Transformations
 - skewY()
 - skew()
 - matrix
+
+CSS Flex
+---------
+Flex - is a shorthand for flex-grow, flex-shrink and flex-basis

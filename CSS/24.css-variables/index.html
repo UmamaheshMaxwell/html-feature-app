@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root {
+            --width: 300px;
+            --div-height:150px;
+            --div-margin-bottom:20px;
+            /* background-color: yellowgreen; */
+        }
+        body {
+            /* --div-width: 300px;
+            --div-height:150px;
+            --div-margin-bottom:20px; */
+        }
+        .box-1 {
+
+            background-color: teal;
+        }
+        .box-2{
+
+            background-color: red;
+           
+        }
+        .box-3 {
+            background-color: crimson;
+           
+        }
+
+        div {
+            width: var(--width);
+            height: var(--div-height);
+            margin-bottom: var(--div-margin-bottom);
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1"></div>
+    <div class="box-2"></div>
+    <div class="box-3"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, unde?</p>
+</body>
+</html>
